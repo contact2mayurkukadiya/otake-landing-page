@@ -1,0 +1,110 @@
+@import url("./assets //fonts/font.css");
+
+body {
+    /* font-family: "Bricolage Grotesque"; */
+}
+
+h1 {
+    font-family: "Bricolage Grotesque";
+    font-weight: bold;
+}
+
+.tag-1 {
+    border-radius: 6px;
+    background-color: #FFE785;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: #0D0C10;
+}
+
+.tag-2 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Bricolage Grotesque";
+    color: #0D0C10;
+}
+
+.tag-3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #0D0C10;
+}
+
+.tag-4 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0D0C10;
+    font-family: "Bricolage Grotesque";
+    line-height: 57px;
+}
+
+.tag-5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D0C10;
+    width: 25%;
+}
+
+.tag-title-1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #0D0C10;
+    font-family: "Bricolage Grotesque";
+}
+
+.tag-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D0C10;
+}
+
+.btn-1 {
+    box-shadow: 0px 0px 0px 1px #E8E6F0;
+    box-shadow: 0px 1px 1px 0px #0D0C100A;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #e8e6f0;
+
+    span {
+        font-size: 12px;
+        font-weight: 500;
+        color: #0D0C10;
+    }
+}
+
+.btn-2 {
+    box-shadow: 0px 0px 0px 1px #E8E6F0;
+    box-shadow: 0px 1px 1px 0px #0D0C100A;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #e8e6f0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+
+    span {
+        font-size: 12px;
+        font-weight: 500;
+        color: #0D0C10;
+    }
+}
+
+.card-shado-tag {
+    box-shadow: 0px 20px 56px 0px #45417129;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px;
+    text-align: center;
+}

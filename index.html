@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OTAKE</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -71,8 +71,9 @@
                 </div>
             </div>
         </nav>
+
         <div class="banner">
-            <div class="max-w-screen-xl mx-auto px-4 py-16 lg:py-24">
+            <div class="max-w-screen-xl mx-auto py-16 lg:py-16">
                 <div class="grid lg:grid-cols-2 gap-8 items-center">
                     <!-- Left Content -->
                     <div class="space-y-8">
@@ -111,13 +112,13 @@
 
                         <!-- Users Stats -->
                         <div class="flex items-center gap-4">
-                            <div class="flex -space-x-4">
-                                <img class="w-10 h-10 rounded-full border-2 border-white"
-                                    src="assets/images/avatar1.jpg" alt="User">
-                                <img class="w-10 h-10 rounded-full border-2 border-white"
-                                    src="assets/images/avatar2.jpg" alt="User">
-                                <img class="w-10 h-10 rounded-full border-2 border-white"
-                                    src="assets/images/avatar3.jpg" alt="User">
+                            <div class="flex -space-x-2">
+                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-1.png.svg"
+                                    alt="User">
+                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-2.png.svg"
+                                    alt="User">
+                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-3.png.svg"
+                                    alt="User">
                             </div>
                             <div>
                                 <p class="font-bold">24K+</p>
@@ -127,27 +128,236 @@
                     </div>
 
                     <!-- Right Content - 3D Illustration -->
-                    <div class="relative">
+                    <div class="relative h-[600px]">
+                        <!-- Background blur/gradient -->
+                        <div class="absolute inset-0 z-0">
+                            <img src="assets/images/svg/blure.png.svg" alt="" class="w-full h-full object-cover">
+                        </div>
+
+                        <!-- Background pattern -->
+                        <div class="absolute inset-0 z-0">
+                            <img src="assets/images/svg/background-banner.png.svg"
+                                style="transform: translate(50px, 10px); width: 100%;" alt=""
+                                class="w-full h-full object-cover rounded-3xl">
+                        </div>
+
                         <!-- Main Character -->
-                        <div class="relative z-10">
-                            <img src="assets/images/svg/blure.png.svg" alt="" class="w-full h-auto absolute z-[-1]">
-                            <img src="assets/images/svg/cartoon.webp.svg" alt="3D Character" class="w-full h-auto">
+                        <div class="relative h-full flex items-center justify-center z-10">
+                            <img src="assets/images/svg/cartoon.webp.svg" alt="3D Character"
+                                class="h-[500px] object-contain relative">
+                        </div>
+
+                        <!-- Floating Card 1 - Happy Customer -->
+                        <div class="absolute top-[20%] right-[-5%] z-20">
+                            <img src="assets/images/svg/card-1.svg" alt="Happy Customer Card" class="w-auto h-auto">
+                        </div>
+
+                        <!-- Floating Card 2 - Designers -->
+                        <div class="absolute bottom-[20%] left-[-10%] z-20">
+                            <img src="assets/images/svg/card-2.svg" alt="Designers Card" class="w-auto h-auto">
                         </div>
 
                         <!-- Floating Elements -->
-                        <div class="absolute top-[34%] right-[-8%] z-50 ">
-                            <div class="flex items-center gap-2">
-                                <img src="assets/images/svg/card-1.svg" alt="">
+                        <div class="absolute inset-0 z-10">
+                            <!-- Orange ball -->
+                            <div class="absolute top-[30%] right-[30%] w-5 h-5 bg-orange-400 rounded-full"></div>
+                            <!-- Purple ball -->
+                            <div class="absolute bottom-[40%] left-[20%] w-4 h-4 bg-purple-400 rounded-full"></div>
+                            <!-- Small cloud -->
+                            <div class="absolute top-[15%] right-[15%]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                                    <path
+                                        d="M20 12.5C20 15.5376 17.5376 18 14.5 18H7C4.23858 18 2 15.7614 2 13C2 10.2386 4.23858 8 7 8C7.03315 8 7.06622 8.00032 7.09922 8.00097C8.0094 5.6436 10.1881 4 12.7083 4C15.8578 4 18.4212 6.48364 18.4951 9.61265C19.4109 10.0766 20 11.0097 20 12.5Z" />
+                                </svg>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                        <div class="absolute bottom-10 left-0 z-50">
-                            <img src="assets/images/svg/card-2.svg" alt="">
+        <!-- Previous code remains the same -->
+
+        <div class="section-b">
+            <div class="max-w-screen-xl mx-auto px-16  py-16">
+                <!-- Header -->
+                <div class="mb-16 flex justify-between">
+                    <div class="w-[40%]">
+                        <div class="tag-1 inline-block  mb-4">
+                            Powerful Solutions
                         </div>
 
-                        <!-- Background Gradient -->
-                        <div
-                            class="absolute inset-0 bg-gradient-to-br from-pink-100 via-purple-100 to-indigo-100 rounded-3xl -z-10">
+                        <h2 class="tag-2 mb-4">
+                            A powerful solution to boost<br>
+                            your business performance
+                        </h2>
+                    </div>
+                    <div class="w-[40%] p-4">
+                        <p class="tag-3 mb-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus. Nullam
+                            congue
+                            blandit quam, sit amet scelerisque turpis.
+                        </p>
+
+                        <a href="#" class="btn-1">
+                            <span class="">See Customer Reviews </span>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <!-- Company Logos Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
+                    <!-- Row 1 -->
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/1.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/2.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/3.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/4.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/6.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/3.svg" alt="">
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/4.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/5.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/6.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/1.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/2.svg" alt="">
+                    </div>
+
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/images/svg/3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-c relative">
+            <!-- Background Image -->
+            <div class="absolute inset-0 w-full h-full opacity-[72%]">
+                <img src="assets/images/svg/background-2.png.svg" alt="" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Content -->
+            <div class="relative z-10 max-w-screen-xl mx-auto px-8 py-20">
+                <!-- Rest of your content -->
+                <div class="text-center mb-16">
+                    <span class="tag-1">
+                        Product Features
+                    </span>
+                    <h2 class="tag-4 mb-4 mt-4">
+                        Streamline tasks with<br>
+                        optimized workflows
+                    </h2>
+                    <p class="tag-5 mx-auto">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                    </p>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="grid md:grid-cols-3 gap-4">
+                    <!-- Card 1 -->
+                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                        <!-- Floating Icon -->
+                        <div class="absolute -top-8 left-[10rem]">
+                            <img src="assets/images/svg/cl1.png.svg" alt="Project Management" class="w-16 h-16">
+                        </div>
+
+                        <div class="space-y-4 card-content text-center">
+                            <h3 class="tag-title-1">
+                                Keep on top of project management.
+                            </h3>
+                            <p class="text-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <a href="#" class="btn-2">
+                                <span class="mx-auto">Learn More</span>
+                            </a>
+                        </div>
+
+                        <!-- Activity Feed -->
+                        <div class="flex justify-center">
+                            <img class="rounded-3xl" src="assets/images/svg/card-1.png.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                        <!-- Floating Icon -->
+                        <div class="absolute -top-8 left-[10rem]">
+                            <img src="assets/images/svg/cl2.png.svg" alt="Analytics" class="w-16 h-16">
+                        </div>
+
+                        <div class="space-y-4 card-content text-center">
+                            <h3 class="tag-title-1">
+                                Analyze your business results in one place.
+                            </h3>
+                            <p class="text-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <a href="#" class="btn-2">
+                                <span class="mx-auto">Learn More</span>
+                            </a>
+                        </div>
+
+                        <!-- Chart Section -->
+                        <div class="flex justify-center">
+                            <img src="assets/images/svg/card-3.png.svg" class="rounded-3xl" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                        <!-- Floating Icon -->
+                        <div class="absolute -top-8 left-[10rem]">
+                            <img src="assets/images/svg/cl3.png.svg" alt="Tracking" class="w-16 h-16">
+                        </div>
+
+                        <div class="space-y-4 card-content text-center">
+                            <h3 class="tag-title-1">
+                                Keep track of sales and shipping progress.
+                            </h3>
+                            <p class="text-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            <a href="#" class="btn-2">
+                                <span class="mx-auto">Learn More</span>
+                            </a>
+                        </div>
+
+                        <!-- Stats Section -->
+                        <div class="flex justify-center">
+                            <img src="assets/images/svg/card-2.png.svg" class="rounded-3xl" alt="">
                         </div>
                     </div>
                 </div>
