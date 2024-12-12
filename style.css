@@ -46,12 +46,29 @@ h1 {
     width: 25%;
 }
 
+
 .tag-title-1 {
     font-size: 28px;
     font-weight: 600;
     line-height: 37px;
     color: #0D0C10;
     font-family: "Bricolage Grotesque";
+}
+
+.tag-title-2 {
+    font-family: "Bricolage Grotesque";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.feature-title {
+    font-family: "Bricolage Grotesque";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #0D0C10;
+
 }
 
 .tag-description {
@@ -107,4 +124,15 @@ h1 {
     justify-content: space-around;
     padding: 30px 30px;
     text-align: center;
+}
+
+/* Add truncation for features grid */
+.feature-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    /* Fixed height to maintain consistent spacing */
 }
