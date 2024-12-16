@@ -1,0 +1,39 @@
+diff --git a/index.html b/index.html
+index c28f1a5..df0c214 100644
+--- a/index.html
++++ b/index.html
+@@ -135,11 +135,11 @@
+                         </div>
+ 
+                         <!-- Background pattern -->
+-                        <div class="absolute inset-0 z-0">
++                        <!-- <div class="absolute inset-0 z-0">
+                             <img src="assets/images/svg/background-banner.png.svg"
+                                 style="transform: translate(50px, 10px); width: 100%;" alt=""
+                                 class="w-full h-full object-cover rounded-3xl">
+-                        </div>
++                        </div> -->
+ 
+                         <!-- Main Character -->
+                         <div class="relative h-full flex items-center justify-center z-10">
+diff --git a/style.css b/style.css
+index 31e2dff..103bc7a 100644
+--- a/style.css
++++ b/style.css
+@@ -9,6 +9,16 @@ h1 {
+     font-weight: bold;
+ }
+ 
++.banner {
++    background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
++    background-repeat: no-repeat;
++    background-size: 70% 100%, 70% 100%;
++    background-position: right, right;
++    border-radius: 0px 24px 24px 0px;
++    margin-right: 10px;
++    width: calc(100% - 10px);
++}
++
+ .tag-1 {
+     border-radius: 6px;
+     background-color: #FFE785;

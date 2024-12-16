@@ -9,6 +9,24 @@ h1 {
     font-weight: bold;
 }
 
+.banner {
+    background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
+    background-repeat: no-repeat;
+    background-size: 70% 100%, 70% 100%;
+    background-position: right center, right top;
+    border-radius: 0px 24px 24px 0px;
+    margin-right: 10px;
+    width: calc(100% - 10px);
+}
+
+.section-c {
+    background-image: url('assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: 70% 100%, 70% 100%;
+    background-position: center, center;
+    border-radius: 0px 24px 24px 0px;
+}
+
 .tag-1 {
     border-radius: 6px;
     background-color: #FFE785;
