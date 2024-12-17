@@ -1,4 +1,4 @@
-@import url("./assets //fonts/font.css");
+@import url("./assets/fonts/font.css");
 
 body {
     /* font-family: "Bricolage Grotesque"; */
@@ -143,6 +143,14 @@ h1 {
     color: #5d5666 !important;
 }
 
+.cl-black {
+    color: #0D0C10 !important;
+}
+
+.cl-white {
+    color: #FFFFFF !important;
+}
+
 .btn-1 {
     box-shadow: 0px 0px 0px 1px #E8E6F0;
     box-shadow: 0px 1px 1px 0px #0D0C100A;
@@ -264,4 +272,328 @@ h1 {
     font-weight: 500;
     background: #F4F3F8;
     border-radius: 6px;
+}
+
+.btn-4 {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.cat-tag {
+    box-shadow: 0px 12px 48px -12px #45417129;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+
+    span {
+        font-size: 20px;
+        font-weight: 400;
+        color: #222222;
+    }
+}
+
+.cat-tag:hover {
+    border-color: #9585FF;
+}
+
+.cat-tag:hover {
+    transform: translateY(-1px);
+}
+
+.faq-title {
+    font-family: "Bricolage Grotesque";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.4px;
+    letter-spacing: -0.23999999463558197px;
+    color: #0D0C10;
+
+}
+
+.category-btn {
+    @apply flex flex-col items-center p-6 bg-white rounded-2xl border border-gray-100 hover:border-gray-200 transition-all;
+}
+
+.faq-item {
+    @apply bg-white rounded-2xl border border-gray-100 overflow-hidden;
+}
+
+.faq-button {
+    @apply w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+    background-color: #FAFAFA;
+}
+
+.faq-category-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.faq-category-btn.active {
+    background-color: #F3F4F6;
+    border-color: #D1D5DB;
+}
+
+.faq-category-btn:hover {
+    background-color: #F3F4F6;
+}
+
+
+.faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    transition: background-color 0.2s ease;
+}
+
+.font-medium {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.faq-question svg {
+    transition: transform 0.2s ease;
+}
+
+.faq-answer {
+    transition: all 0.2s ease;
+}
+
+/* Animation for the answer */
+.faq-answer:not(.hidden) {
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .faq-category-btn {
+        font-size: 0.875rem;
+        padding: 0.75rem;
+    }
+
+    .faq-question {
+        font-size: 0.875rem;
+        padding: 1rem;
+    }
+
+    .faq-answer {
+        padding: 0 1rem 1rem;
+    }
+}
+
+.fs-questions {}
+
+.section-k {
+    width: 99%;
+    margin: auto;
+    border-radius: 11px;
+    background-color: #0D0C10;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-k h3 {
+    font-family: "Bricolage Grotesque";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.section-k p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #878493;
+}
+
+.section-k .feature-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+
+.news-title {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 24px;
+    color: #FFFFFF !important;
+}
+
+.news-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.news {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+    color: #878493 !important;
+}
+
+.news-button {
+    background: #9585FF !important;
+    transition: all 0.3s ease;
+}
+
+.news-button:hover {
+    background: #8575EE !important;
+}
+
+.news-form {
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.section-k input::placeholder {
+    color: #6B7280;
+}
+
+.section-k input:focus {
+    border-color: #9333EA;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.1);
+}
+
+.section-k .social-link {
+    transition: all 0.2s;
+}
+
+.section-k .social-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section-k {
+        text-align: center;
+    }
+
+    .section-k .social-links {
+        justify-content: center;
+    }
+}
+
+.btn-purple {
+    background: linear-gradient(180deg, #9C6FE4 0%, #8E5FE9 100%);
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+    background: linear-gradient(180deg, #8E5FE9 0%, #7E4FE9 100%);
+    transform: translateY(-1px);
+}
+
+/* Input styles */
+input[type="email"] {
+    background: transparent;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: all 0.3s ease;
+}
+
+input[type="email"]::placeholder {
+    color: #878493;
+    font-size: 14px;
+}
+
+input[type="email"]:focus {
+    /* border-color: #9C6FE4; */
+    box-shadow: none;
+}
+
+.news-button {
+    background: #9585FF !important;
+    transition: all 0.3s ease;
+}
+
+.news-button:hover {
+    background: #8575EE !important;
+}
+
+.news-form {
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.footer-description {
+    padding-top: 2rem;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 20px;
+    text-align: left !important;
+    color: #878493;
+}
+
+.footer-tag {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+.tag-a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #878493;
+    transition: color 0.3s ease;
+
+}
+
+.tag-a:hover {
+    color: #FFFFFF;
 }
