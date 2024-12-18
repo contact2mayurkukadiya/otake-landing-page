@@ -73,25 +73,24 @@
         </nav>
 
 
-
         <div class="banner">
-            <div class="max-w-screen-xl mx-auto py-16 lg:py-16">
+            <div class="max-w-screen-xl mx-auto py-8 lg:py-16 px-4 lg:px-0">
                 <div class="grid lg:grid-cols-2 gap-8 items-center">
                     <!-- Left Content -->
-                    <div class="space-y-8">
+                    <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
                         <!-- Yellow Badge -->
                         <span class="inline-block px-4 py-2 bg-yellow-100 text-sm font-medium rounded-full">
                             Powerful Solutions
                         </span>
 
                         <!-- Heading -->
-                        <h1 class="text-4xl lg:text-5xl font-bold leading-tight">
-                            Our Cutting-Edge<br>
+                        <h1 class="text-3xl lg:text-5xl font-bold leading-tight">
+                            Our Cutting-Edge<br class="hidden lg:block">
                             Software Solutions
                         </h1>
 
                         <!-- Description -->
-                        <p class="text-gray-600 text-lg">
+                        <p class="text-gray-600 text-base lg:text-lg">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
                         </p>
 
@@ -99,17 +98,15 @@
                         <p class="font-medium">30 Day Free Trial No Credit Card Required:</p>
 
                         <!-- Email Form -->
-                        <div class="flex gap-4">
-                            <div class="relative flex-1">
-                                <input type="email" placeholder="Enter your email"
-                                    class="w-full px-4 py-3 bg-[#1A1A1A] border-b border-gray-700 focus:outline-none focus:border-b-purple-500 text-gray-300 text-sm">
-                                <div
-                                    class="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gray-700 to-transparent opacity-50">
-                                </div>
+                        <div class="flex flex-col lg:flex-row gap-4">
+                            <div class="relative w-full lg:w-[80%] mx-auto lg:mx-0">
+                                <input type="email" placeholder="Enter your mail"
+                                    class="w-full border rounded-full pl-4 pr-32 py-2"
+                                    style="border: 1px solid #E8E6F0; border-radius: 10px;">
+                                <button class="absolute right-2 get-started-btn">
+                                    Get Started - it's free
+                                </button>
                             </div>
-                            <button class="btn-purple">
-                                Get Started - it's free
-                            </button>
                         </div>
 
                         <!-- Disclaimer -->
@@ -118,52 +115,49 @@
                         </p>
 
                         <!-- Users Stats -->
-                        <div class="flex items-center gap-4">
+                        <div class="flex items-center justify-center lg:justify-start gap-4">
                             <div class="flex -space-x-2">
-                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-1.png.svg"
-                                    alt="User">
-                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-2.png.svg"
-                                    alt="User">
-                                <img class="w-10 h-10 rounded-full border-2" src="assets/images/svg/man-3.png.svg"
-                                    alt="User">
+                                <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                    src="assets/images/svg/man-1.png.svg" alt="User">
+                                <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                    src="assets/images/svg/man-2.png.svg" alt="User">
+                                <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                    src="assets/images/svg/man-3.png.svg" alt="User">
                             </div>
                             <div>
                                 <p class="font-bold">24K+</p>
-                                <p class="text-sm text-gray-600">Active Users</p>
+                                <p class="text-xs lg:text-sm text-gray-600">Active Users</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Right Content - 3D Illustration -->
-                    <div class="relative h-[600px]">
+                    <div class="relative h-[300px] lg:h-[600px] mt-8 lg:mt-0 hidden lg:block">
                         <!-- Main Character -->
                         <div class="relative h-full flex items-center justify-center z-10">
                             <img src="assets/images/svg/cartoon.webp.svg" alt="3D Character"
-                                class="h-[500px] object-contain relative">
+                                class="h-[400px] lg:h-[1000px] object-contain relative">
                         </div>
 
                         <!-- Floating Card 1 - Happy Customer -->
-                        <div class="absolute top-[20%] right-[-5%] z-20">
+                        <div class="absolute top-[35%] right-[-5%] z-20 hidden lg:block">
                             <img src="assets/images/svg/card-1.svg" alt="Happy Customer Card" class="w-auto h-auto">
                         </div>
 
                         <!-- Floating Card 2 - Designers -->
-                        <div class="absolute bottom-[20%] left-[-10%] z-20">
+                        <div class="absolute bottom-[6%] left-[-7%] z-20 hidden lg:block">
                             <img src="assets/images/svg/card-2.svg" alt="Designers Card" class="w-auto h-auto">
                         </div>
 
                         <!-- Floating Elements -->
-                        <div class="absolute inset-0 z-10">
+                        <div class="absolute inset-0 z-10 hidden lg:block">
                             <!-- Orange ball -->
                             <div class="absolute top-[30%] right-[30%] w-5 h-5 bg-orange-400 rounded-full"></div>
                             <!-- Purple ball -->
                             <div class="absolute bottom-[40%] left-[20%] w-4 h-4 bg-purple-400 rounded-full"></div>
                             <!-- Small cloud -->
-                            <div class="absolute top-[15%] right-[15%]">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-                                    <path
-                                        d="M20 12.5C20 15.5376 17.5376 18 14.5 18H7C4.23858 18 2 15.7614 2 13C2 10.2386 4.23858 8 7 8C7.03315 8 7.06622 8.00032 7.09922 8.00097C8.0094 5.6436 10.1881 4 12.7083 4C15.8578 4 18.4212 6.48364 18.4951 9.61265C19.4109 10.0766 20 11.0097 20 12.5Z" />
-                                </svg>
+                            <div class="absolute top-[7%] right-[2%]">
+                                <img src="assets/images/svg/cloud.png.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -172,20 +166,21 @@
         </div>
 
         <div class="section-b">
-            <div class="max-w-screen-xl mx-auto px-16  py-16">
+            <div class="max-w-screen-xl mx-auto px-4 lg:px-16 py-16">
                 <!-- Header -->
-                <div class="mb-16 flex justify-between">
-                    <div class="w-[40%]">
-                        <div class="tag-1 inline-block  mb-4">
+                <div class="mb-16 flex flex-col lg:flex-row lg:justify-between gap-8">
+                    <div class="lg:w-[40%] ">
+                        <div class="tag-1 inline-block mb-4">
                             Powerful Solutions
                         </div>
 
                         <h2 class="tag-2 mb-4">
-                            A powerful solution to boost<br>
+                            A powerful solution to boost
+                            <br class="hidden lg:block">
                             your business performance
                         </h2>
                     </div>
-                    <div class="w-[40%] p-4">
+                    <div class="lg:w-[40%]">
                         <p class="tag-3 mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus. Nullam
                             congue
@@ -193,160 +188,177 @@
                         </p>
 
                         <a href="#" class="btn-1">
-                            <span class="">See Customer Reviews </span>
+                            <span>See Customer Reviews</span>
                         </a>
                     </div>
-
-
                 </div>
 
                 <!-- Company Logos Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-8 mb-16">
                     <!-- Row 1 -->
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/1.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/1.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/2.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/2.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/3.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/4.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/4.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/6.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/6.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/3.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
                     <!-- Row 2 -->
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/4.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/4.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/5.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/5.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/6.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/6.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/1.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/1.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/2.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/2.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
 
-                    <div class="flex items-center space-x-2">
-                        <img src="assets/images/svg/3.svg" alt="">
+                    <div
+                        class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                        <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="section-c relative">
-
             <!-- Content -->
-            <div class="relative z-10 max-w-screen-xl mx-auto px-8 py-20">
-                <!-- Rest of your content -->
-                <div class="text-center mb-16">
-                    <span class="tag-1">
+            <div class="relative z-10 max-w-screen-xl mx-auto px-4 lg:px-8 py-12 lg:py-20">
+                <!-- Header content -->
+                <div class="text-center mb-8 lg:mb-16">
+                    <span class="tag-1 inline-block">
                         Product Features
                     </span>
                     <h2 class="tag-4 mb-4 mt-4">
-                        Streamline tasks with<br>
+                        Streamline tasks with
+                        <br class="hidden lg:block">
                         optimized workflows
                     </h2>
-                    <p class="tag-5 mx-auto">
+                    <p class="tag-5 mx-auto max-w-2xl px-4 lg:px-0  pb-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
                     </p>
                 </div>
 
                 <!-- Cards Grid -->
-                <div class="grid md:grid-cols-3 gap-4">
+                <div
+                    class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 lg:gap-4 pb-4 md:pb-0">
                     <!-- Card 1 -->
-                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                    <div
+                        class="bg-white card-shado-tag mt-12 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto">
                         <!-- Floating Icon -->
-                        <div class="absolute -top-8 left-[10rem]">
+                        <div
+                            class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
                             <img src="assets/images/svg/cl1.png.svg" alt="Project Management" class="w-16 h-16">
                         </div>
 
-                        <div class="space-y-4 card-content text-center">
+                        <div class="space-y-4 card-content text-center pt-8">
                             <h3 class="tag-title-1">
                                 Keep on top of project management.
                             </h3>
                             <p class="text-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
-                            <a href="#" class="btn-2">
+                            <a href="#" class="btn-2 inline-block">
                                 <span class="mx-auto">Learn More</span>
                             </a>
                         </div>
 
                         <!-- Activity Feed -->
-                        <div class="flex justify-center">
-                            <img class="rounded-3xl" src="assets/images/svg/card-1.png.svg" alt="">
+                        <div class="flex justify-center mt-6">
+                            <img class="rounded-3xl w-full max-w-md" src="assets/images/svg/card-1.png.svg" alt="">
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                    <div
+                        class="bg-white card-shado-tag mt-12 sm:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto">
                         <!-- Floating Icon -->
-                        <div class="absolute -top-8 left-[10rem]">
+                        <div
+                            class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
                             <img src="assets/images/svg/cl2.png.svg" alt="Analytics" class="w-16 h-16">
                         </div>
 
-                        <div class="space-y-4 card-content text-center">
+                        <div class="space-y-4 card-content text-center pt-8">
                             <h3 class="tag-title-1">
                                 Analyze your business results in one place.
                             </h3>
                             <p class="text-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
-                            <a href="#" class="btn-2">
+                            <a href="#" class="btn-2 inline-block">
                                 <span class="mx-auto">Learn More</span>
                             </a>
                         </div>
 
                         <!-- Chart Section -->
-                        <div class="flex justify-center">
-                            <img src="assets/images/svg/card-3.png.svg" class="rounded-3xl" alt="">
+                        <div class="flex justify-center mt-6">
+                            <img src="assets/images/svg/card-3.png.svg" class="rounded-3xl w-full max-w-md" alt="">
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="bg-white card-shado-tag rounded-3xl p-4 relative">
+                    <div
+                        class="bg-white card-shado-tag mt-12 sm:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto">
                         <!-- Floating Icon -->
-                        <div class="absolute -top-8 left-[10rem]">
+                        <div
+                            class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
                             <img src="assets/images/svg/cl3.png.svg" alt="Tracking" class="w-16 h-16">
                         </div>
 
-                        <div class="space-y-4 card-content text-center">
+                        <div class="space-y-4 card-content text-center pt-8">
                             <h3 class="tag-title-1">
-                                Keep track of sales and shipping progress.
+                                Keep track sales and shipping progress.
                             </h3>
                             <p class="text-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </p>
-                            <a href="#" class="btn-2">
+                            <a href="#" class="btn-2 inline-block">
                                 <span class="mx-auto">Learn More</span>
                             </a>
                         </div>
 
                         <!-- Stats Section -->
-                        <div class="flex justify-center">
-                            <img src="assets/images/svg/card-2.png.svg" class="rounded-3xl" alt="">
+                        <div class="flex justify-center mt-6">
+                            <img src="assets/images/svg/card-2.png.svg" class="rounded-3xl w-full max-w-md" alt="">
                         </div>
                     </div>
                 </div>
@@ -603,6 +615,12 @@
                             <div class="flex items-center justify-between mb-6">
                                 <div>
                                     <div class="flex gap-1 mb-4">
+                                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                fill="#85C6FF" />
+                                        </svg>
                                         <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -1043,7 +1061,7 @@
                     </div>
 
                     <!-- Right Column -->
-                    <div class="news-input">
+                    <!-- <div class="news-input">
                         <h3 class="news-title mb-4">30 Day Free Trial No Credit Card Required:</h3>
                         <div class="flex gap-4 news-form" style="border: 1px solid #201E28">
                             <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 bg-[#1A1A1A]">
@@ -1051,7 +1069,7 @@
                                 Get Started - it's free
                             </button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Footer Links -->
@@ -1165,6 +1183,44 @@
 
     <!-- script -->
     <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
+
+</html>
+</div>
+<div>
+    <a href="#" class="hover:text-white">License</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- script -->
+<script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
+<script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
+
+</html>
+</div>
+<div>
+    <a href="#" class="hover:text-white">License</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- script -->
+<script src="assets/scripts/script.js"></script>
 </body>
 
 </html>
