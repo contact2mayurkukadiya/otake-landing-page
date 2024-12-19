@@ -50,22 +50,24 @@
                 <!-- Mobile Menu (Hidden by default) -->
                 <div class="hidden w-full lg:hidden" id="mobile-menu">
                     <ul class="flex flex-col mt-4 font-medium">
-                        <li>
-                            <a href="#" class="block py-2 text-gray-700 hover:text-gray-900">About</a>
+                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
+                            <a href="#" class="block py-3 px-4 text-gray-700">About</a>
                         </li>
-                        <li>
-                            <a href="#" class="block py-2 text-gray-700 hover:text-gray-900">Pricing</a>
+                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
+                            <a href="#" class="block py-3 px-4 text-gray-700">Pricing</a>
                         </li>
-                        <li>
-                            <a href="#" class="block py-2 text-gray-700 hover:text-gray-900">Contact</a>
+                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
+                            <a href="#" class="block py-3 px-4 text-gray-700">Contact</a>
                         </li>
-                        <li>
-                            <a href="#" class="block py-2 text-gray-700 hover:text-gray-900">Sign in</a>
+                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
+                            <a href="#" class="block py-3 px-4 text-gray-700">Sign in</a>
                         </li>
-                        <li>
-                            <a href="#"
-                                class="inline-block py-2 px-4 text-white bg-black rounded-lg hover:bg-gray-800">Try for
-                                Free</a>
+                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
+                            <a href="#" class="block py-3 px-4">
+                                <span
+                                    class="inline-block py-2 px-4 text-white bg-black rounded-lg hover:bg-gray-800">Try
+                                    for Free</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -283,7 +285,7 @@
                     class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 lg:gap-4 pb-16 md:pb-0 snap-x snap-mandatory">
                     <!-- Card 1 -->
                     <div
-                        class="bg-white card-shado-tag ml-6 mt-12 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                        class="bg-white card-shado-tag ml-6 mt-12 lg:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto snap-center">
                         <!-- Floating Icon -->
                         <div
                             class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
@@ -437,7 +439,7 @@
         </div>
 
         <div class="section-e py-20">
-            <div class="max-w-screen-xl mx-auto px-16">
+            <div class="max-w-screen-xl mx-auto px-6 lg:px-16">
                 <!-- Left Content -->
                 <div class="grid lg:grid-cols-2 gap-8 items-center">
                     <div class="space-y-6">
@@ -471,7 +473,8 @@
                                 <img src="assets/images/svg/tike-1.svg" class="" alt="">
                                 <p class="text-sm">Collect authorization via secure portals</p>
                             </div>
-                            <img class="absolute right-[50%] top-[400%]" src="assets/images/svg/001.png.svg" alt="">
+                            <img class="absolute right-[50%] top-[400%] hidden lg:block"
+                                src="assets/images/svg/001.png.svg" alt="">
                         </div>
                     </div>
 
@@ -484,16 +487,16 @@
         </div>
 
         <div class="section-f py-10">
-            <div class="max-w-screen-xl mx-auto px-16">
+            <div class="max-w-screen-xl mx-auto px-6 lg:px-16">
                 <!-- Content Container -->
                 <div class="grid lg:grid-cols-2 gap-8 items-center">
                     <!-- Left Content - Browser Window -->
-                    <div class="flex justify-start">
+                    <div class="flex justify-start order-2 lg:order-1">
                         <img src="assets/images/svg/card-web-2.svg" alt="Analytics Dashboard" class="">
                     </div>
 
                     <!-- Right Content -->
-                    <div class="space-y-6">
+                    <div class="space-y-6 order-1 lg:order-2">
                         <span class="inline-block px-4 py-2 feature-title-2">
                             Product Features
                         </span>
@@ -533,8 +536,8 @@
             </div>
         </div>
 
-        <div class="section-g py-20 bg-[#0D0D0D]">
-            <div class="max-w-screen-xl  mx-auto px-4 lg:px-16 section-g-c">
+        <div class="section-g pt-10 lg:py-20 bg-[#0D0D0D]">
+            <div class="max-w-screen-xl mx-auto px-4 lg:px-16 section-g-c">
                 <!-- Header -->
                 <div class="text-center mb-16 relative">
                     <!-- Left cupcake image -->
@@ -627,6 +630,12 @@
                             <div class="flex items-center justify-between mb-6">
                                 <div>
                                     <div class="flex gap-1 mb-4">
+                                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                fill="#85C6FF" />
+                                        </svg>
                                         <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -807,10 +816,11 @@
                 </div>
 
                 <!-- Blog Cards Grid -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 pb-16 md:pb-0 snap-x snap-mandatory">
                     <!-- Blog Card 1 -->
                     <div
-                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto ml-6 md:ml-0 snap-center">
                         <div class="relative p-4">
                             <img src="assets/images/svg/cartoon-1.png.svg" alt="Analytics"
                                 class="w-full h-64 object-cover rounded-[1rem] bg-[#EBF5FF]">
@@ -829,7 +839,7 @@
 
                     <!-- Blog Card 2 -->
                     <div
-                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto snap-center">
                         <div class="relative p-4">
                             <img src="assets/images/svg/cartoon-2.png.svg" alt="Sales Growth"
                                 class="w-full h-64 object-cover rounded-[1rem] bg-[#F3EFFF]">
@@ -849,7 +859,7 @@
 
                     <!-- Blog Card 3 -->
                     <div
-                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto mr-6 md:mr-0 snap-center">
                         <div class="relative p-4">
                             <img src="assets/images/svg/cartoon-3.png.svg" alt="Customer Base"
                                 class="w-full h-64 object-cover rounded-[1rem] bg-[#FFE9EC]">
@@ -868,11 +878,21 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Centered Bottom Arrow Button -->
+                <div class="flex justify-center mt-8 md:hidden">
+                    <button
+                        class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center absolute top-[1028%]">
+                        <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <div class="section-i py-20">
-            <div class="max-w-4xl mx-auto">
+        <div class="section-i lg:py-20">
+            <div class="max-w-4xl mx-auto px-4 lg:px-0">
                 <!-- Black Card Container -->
                 <div class="bg-black rounded-[2rem] p-12 md:p-16 relative">
                     <!-- Octagonal Logo Element -->

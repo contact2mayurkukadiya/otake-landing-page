@@ -67,12 +67,11 @@ h1 {
 
 
 .tag-6 {
-    font-size: 48px;
+    font-size: 34px;
     font-weight: 600;
     color: #898693;
     font-family: "Bricolage Grotesque";
-    line-height: 57px;
-
+    line-height: 50px;
 }
 
 .tag-7 {
@@ -101,7 +100,7 @@ h1 {
 
 .feature-title {
     font-family: "Bricolage Grotesque";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 28px;
     color: #0D0C10;
@@ -591,7 +590,7 @@ input[type="email"]:focus {
     text-align: left;
     color: #878493;
     transition: color 0.3s ease;
-
+    display: flex;
 }
 
 .tag-a:hover {
@@ -656,6 +655,22 @@ input[type="email"]::placeholder {
         width: 25%;
         padding: 0;
     }
+
+    .tag-6 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #898693;
+        font-family: "Bricolage Grotesque";
+        line-height: 57px;
+    }
+
+    .feature-title {
+        font-family: "Bricolage Grotesque";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #0D0C10;
+    }
 }
 
 /* Desktop styles */
@@ -667,6 +682,8 @@ input[type="email"]::placeholder {
         width: 30%;
         padding: 0;
     }
+
+
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
