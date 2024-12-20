@@ -235,17 +235,35 @@ h1 {
 }
 
 .section-f {
+    position: relative;
     background-image: url('assets/images/svg/background-2.png.svg');
     background-repeat: no-repeat;
-    background-size: 100% 100%, 100% 100%;
-    background-position: center, center;
+    background-size: contain;
+    background-position: left;
     border-radius: 0px 24px 24px 0px;
 }
 
 .section-e {
+    position: relative;
     background-image: url('assets/images/svg/background-2.png.svg');
     background-repeat: no-repeat;
-    background-size: 100% 100%, 100% 100%;
+    background-size: contain;
+    background-position: right;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.section-h {
+    background-image: url('assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: 70% 100%, 70% 100%;
+    background-position: center, center;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.section-j {
+    background-image: url('assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: 70% 100%, 70% 100%;
     background-position: center, center;
     border-radius: 0px 24px 24px 0px;
 }
