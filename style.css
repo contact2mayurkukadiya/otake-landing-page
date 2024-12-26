@@ -7,6 +7,10 @@ h1 {
     font-weight: bold;
 }
 
+.abc {
+    color: red;
+}
+
 .banner {
     background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
     background-repeat: no-repeat;

@@ -11,239 +11,1025 @@
 
 <body>
     <div>
-        <nav class="navbar sticky top-0 z-50 bg-white border-gray-200 px-4 lg:px-6 py-4 shadow-sm">
-            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-2">
-                <!-- Logo -->
-                <a href="#" class="flex items-center">
-                    <img src="assets/images/svg/logo.svg" alt="">
-                </a>
+        <header></header>
+        <main>
+            <div class="banner">
+                <div class="max-w-screen-xl mx-auto py-8 lg:py-16 px-4 lg:px-0">
+                    <div class="grid lg:grid-cols-2 gap-8 items-center">
+                        <!-- Left Content -->
+                        <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
+                            <!-- Yellow Badge -->
+                            <span class="inline-block px-4 py-2 bg-yellow-100 text-sm font-medium rounded-full">
+                                Powerful Solutions
+                            </span>
 
-                <!-- Desktop Menu -->
-                <div class="hidden lg:flex items-center lg:gap-8">
-                    <ul class="flex flex-row gap-8">
-                        <li>
-                            <a href="/home" data-link class="text-gray-700 hover:text-gray-900">Home</a>
-                        </li>
-                        <li>
-                            <a href="/about" data-link class="text-gray-700 hover:text-gray-900">About</a>
-                        </li>
-                        <li>
-                            <a href="/pricing" data-link class="text-gray-700 hover:text-gray-900">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="/contact" data-link class="text-gray-700 hover:text-gray-900">Contact</a>
-                        </li>
-                    </ul>
+                            <!-- Heading -->
+                            <h1 class="text-3xl lg:text-5xl font-bold leading-tight">
+                                Our Cutting-Edge<br class="hidden lg:block">
+                                Software Solutions
+                            </h1>
 
-                    <div class="flex items-center gap-4">
-                        <a href="#" class="text-gray-700 hover:text-gray-900">Sign in</a>
-                        <a href="#" class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">Try for Free</a>
+                            <!-- Description -->
+                            <p class="text-gray-600 text-base lg:text-lg">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                            </p>
+
+                            <!-- Trial Info -->
+                            <p class="font-medium">30 Day Free Trial No Credit Card Required:</p>
+
+                            <!-- Email Form -->
+                            <div class="flex flex-col lg:flex-row gap-4">
+                                <div class="relative w-full lg:w-[80%] mx-auto lg:mx-0">
+                                    <input type="email" placeholder="Enter your mail"
+                                        class="w-full border rounded-full pl-4 pr-32 py-2"
+                                        style="border: 1px solid #E8E6F0; border-radius: 10px;">
+                                    <button class="absolute right-2 get-started-btn">
+                                        Get Started - it's free
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Disclaimer -->
+                            <p class="text-sm text-gray-500">
+                                Add some additional disclaimer text here.
+                            </p>
+
+                            <!-- Users Stats -->
+                            <div class="flex items-center justify-center lg:justify-start gap-4">
+                                <div class="flex -space-x-2">
+                                    <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                        src="assets/images/svg/4.svg" alt="User">
+                                    <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                        src="assets/images/svg/man-2.png.svg" alt="User">
+                                    <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full border-2"
+                                        src="assets/images/svg/man-3.png.svg" alt="User">
+                                </div>
+                                <div>
+                                    <p class="font-bold">24K+</p>
+                                    <p class="text-xs lg:text-sm text-gray-600">Active Users</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Content - 3D Illustration -->
+                        <div class="relative h-[300px] lg:h-[600px] mt-8 lg:mt-0 hidden lg:block">
+                            <!-- Main Character -->
+                            <div class="relative h-full flex items-center justify-center z-10">
+                                <img src="assets/images/svg/cartoon.webp.svg" alt="3D Character"
+                                    class="h-[400px] lg:h-[1000px] object-contain relative">
+                            </div>
+
+                            <!-- Floating Card 1 - Happy Customer -->
+                            <div class="absolute top-[35%] right-[-5%] z-20 hidden lg:block">
+                                <img src="assets/images/svg/card-1.svg" alt="Happy Customer Card" class="w-auto h-auto">
+                            </div>
+
+                            <!-- Floating Card 2 - Designers -->
+                            <div class="absolute bottom-[6%] left-[-7%] z-20 hidden lg:block">
+                                <img src="assets/images/svg/card-2.svg" alt="Designers Card" class="w-auto h-auto">
+                            </div>
+
+                            <!-- Floating Elements -->
+                            <div class="absolute inset-0 z-10 hidden lg:block">
+                                <!-- Orange ball -->
+                                <div class="absolute top-[30%] right-[30%] w-5 h-5 bg-orange-400 rounded-full">
+                                </div>
+                                <!-- Purple ball -->
+                                <div class="absolute bottom-[40%] left-[20%] w-4 h-4 bg-purple-400 rounded-full">
+                                </div>
+                                <!-- Small cloud -->
+                                <div class="absolute top-[7%] right-[2%]">
+                                    <img src="assets/images/svg/cloud.png.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Mobile menu button -->
-                <button
-                    class="lg:hidden inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-
-                <!-- Mobile Menu (Hidden by default) -->
-                <div class="hidden w-full lg:hidden" id="mobile-menu">
-                    <ul class="flex flex-col mt-4 font-medium">
-                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                            <a href="#" class="block py-3 px-4 text-gray-700">About</a>
-                        </li>
-                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                            <a href="#" class="block py-3 px-4 text-gray-700">Pricing</a>
-                        </li>
-                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                            <a href="#" class="block py-3 px-4 text-gray-700">Contact</a>
-                        </li>
-                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                            <a href="#" class="block py-3 px-4 text-gray-700">Sign in</a>
-                        </li>
-                        <li class="hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                            <a href="#" class="block py-3 px-4">
-                                <span
-                                    class="inline-block py-2 px-4 text-white bg-black rounded-lg hover:bg-gray-800">Try
-                                    for Free</span>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </nav>
-        <!-- here change pages -->
-        <main id="content"></main>
 
-        <div class="section-k bg-[#0D0C10] text-white py-20">
-            <div class="max-w-screen-xl mx-auto px-4 lg:px-16">
-                <!-- Top Section -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
-                    <!-- Innovation -->
-                    <div class="text-center">
-                        <img src="assets/images/svg/inovation.png.svg" alt="Innovation" class="w-16 h-16 mx-auto mb-4">
-                        <h3 class=" mb-2">INNOVATION</h3>
-                        <p class="">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
-                        </p>
+            <div class="section-b">
+                <div class="max-w-screen-xl mx-auto px-4 lg:px-16 py-16">
+                    <!-- Header -->
+                    <div class="mb-16 flex flex-col lg:flex-row lg:justify-between gap-8">
+                        <div class="lg:w-[40%] text-center lg:text-left">
+                            <div class="tag-1 inline-block mb-4">
+                                Powerful Solutions
+                            </div>
+
+                            <h2 class="tag-2 mb-4">
+                                A powerful solution to boost
+                                <br class="hidden lg:block">
+                                your business performance
+                            </h2>
+                        </div>
+
+                        <div class="lg:w-[40%] text-center lg:text-left">
+                            <p class="tag-3 mb-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                                Nullam
+                                congue blandit quam, sit amet scelerisque turpis.
+                            </p>
+
+                            <a href="#" class="btn-1 inline-block">
+                                <span>See Customer Reviews</span>
+                            </a>
+                        </div>
+
                     </div>
 
-                    <!-- Cloud Secure -->
-                    <div class="text-center">
-                        <img src="assets/images/svg/cloud-s.png.svg" alt="Cloud Secure" class="w-16 h-16 mx-auto mb-4">
-                        <h3 class="text-xl font-semibold mb-2">CLOUD SECURE</h3>
-                        <p class="text-gray-400 text-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
-                        </p>
-                    </div>
+                    <!-- Company Logos Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-8 mb-16">
+                        <!-- Row 1 -->
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/1.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
 
-                    <!-- Growth Driven -->
-                    <div class="text-center">
-                        <img src="assets/images/svg/groths.png.svg" alt="Growth Driven" class="w-16 h-16 mx-auto mb-4">
-                        <h3 class="text-xl font-semibold mb-2">GROWTH DRIVEN</h3>
-                        <p class="text-gray-400 text-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
-                        </p>
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/2.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/4.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/6.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/4.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/5.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/6.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/1.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/2.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
+
+                        <div
+                            class="flex items-center justify-center p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
+                            <img src="assets/images/svg/3.svg" alt="Company Logo" class="w-auto h-8 lg:h-auto">
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Newsletter Section -->
-                <div class="grid md:grid-cols-2 gap-8 mb-16 pt-16">
-                    <!-- Left Column -->
-                    <div class="flex flex-col items-start">
-                        <h3 class="text-xl font-semibold mb-4">Subscribe to our newsletter for updates:</h3>
-                        <p class="news">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
+            <div class="section-c relative">
+                <!-- Content -->
+                <div class="relative z-10 max-w-screen-xl mx-auto lg:px-8 py-12 lg:py-20">
+                    <!-- Header content -->
+                    <div class="text-center mb-8 lg:mb-16">
+                        <span class="tag-1 inline-block">
+                            Product Features
+                        </span>
+                        <h2 class="tag-4 mb-4 mt-4">
+                            Streamline tasks with
+                            <br class="hidden lg:block">
+                            optimized workflows
+                        </h2>
+                        <p class="tag-5 mx-auto max-w-2xl px-4 lg:px-0  pb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                        </p>''
                     </div>
 
-                    <!-- Right Column -->
-                    <!-- <div class="news-input">
-                        <h3 class="news-title mb-4">30 Day Free Trial No Credit Card Required:</h3>
-                        <div class="flex gap-4 news-form" style="border: 1px solid #201E28">
-                            <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 bg-[#1A1A1A]">
-                            <button class="news-button px-6 py-2 text-white rounded-lg transition-colors">
-                                Get Started - it's free
-                            </button>
-                        </div>
-                    </div> -->
-                </div>
+                    <!-- Cards Grid -->
+                    <div
+                        class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 lg:gap-4 pb-16 md:pb-0 snap-x snap-mandatory">
+                        <!-- Card 1 -->
+                        <div
+                            class="bg-white card-shado-tag ml-6 mt-12 lg:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <!-- Floating Icon -->
+                            <div
+                                class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
+                                <img src="assets/images/svg/cl1.p   ng.svg" alt="Project Management" class="w-16 h-16">
+                            </div>
 
-                <!-- Footer Links -->
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16 pt-16 border-t border-gray-800">
-                    <!-- Logo Column -->
-                    <div class="md:col-span-1 flex flex-col justify-between">
-                        <div class="mb-16">
-                            <img src="assets/images/svg/okta-logo.svg" alt="Logo" class="h-8 mb-6">
-                        </div>
-                        <div>
-                            <!-- Social Links -->
-                            <div class="flex gap-4">
-                                <a href="#" class="text-gray-400 hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path
-                                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path
-                                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path
-                                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
-                                    </svg>
-                                </a>
-                                <a href="#" class="text-gray-400 hover:text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                        <path
-                                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.892l4.917 2.892-4.917 2.892v-5.784z" />
-                                    </svg>
+                            <div class="space-y-4 card-content text-center pt-8">
+                                <h3 class="tag-title-1">
+                                    Keep on top of project management.
+                                </h3>
+                                <p class="text-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn-2 inline-block">
+                                    <span class="mx-auto">Learn More</span>
                                 </a>
                             </div>
-                            <p class="footer-description mb-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+                            <!-- Activity Feed -->
+                            <div class="flex justify-center mt-6">
+                                <img class="rounded-3xl w-full max-w-md" src="assets/images/svg/card-1.png.svg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div
+                            class="bg-white card-shado-tag mt-12 sm:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <!-- Floating Icon -->
+                            <div
+                                class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem] lg:transform-none">
+                                <img src="assets/images/svg/cl2.png.svg" alt="Analytics" class="w-16 h-16">
+                            </div>
+
+                            <div class="space-y-4 card-content text-center pt-8">
+                                <h3 class="tag-title-1">
+                                    Analyze your business results in one place.
+                                </h3>
+                                <p class="text-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn-2 inline-block">
+                                    <span class="mx-auto">Learn More</span>
+                                </a>
+                            </div>
+
+                            <!-- Chart Section -->
+                            <div class="flex justify-center mt-6">
+                                <img src="assets/images/svg/card-3.png.svg" class="rounded-3xl w-full max-w-md" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div
+                            class="bg-white card-shado-tag mr-6 mt-12 sm:mt-0 rounded-3xl p-4 relative flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <!-- Floating Icon -->
+                            <div
+                                class="absolute -top-8 left-1/2 transform -translate-x-1/2 lg:left-[10rem]  lg:transform-none">
+                                <img src="assets/images/svg/cl3.png.svg" alt="Tracking" class="w-16 h-16">
+                            </div>
+
+                            <div class="space-y-4 card-content text-center pt-8">
+                                <h3 class="tag-title-1">
+                                    Keep track sales and shipping progress.
+                                </h3>
+                                <p class="text-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn-2 inline-block">
+                                    <span class="mx-auto">Learn More</span>
+                                </a>
+                            </div>
+
+                            <!-- Stats Section -->
+                            <div class="flex justify-center mt-6">
+                                <img src="assets/images/svg/card-2.png.svg" class="rounded-3xl w-full max-w-md" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Centered Bottom Arrow Button -->
+                    <div class="flex justify-center mt-8 md:hidden">
+                        <button
+                            class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center absolute bottom-[11%]">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-d lg:py-20">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <!-- Header with cloud icon -->
+                    <div class="text-center mb-16 relative">
+                        <img src="assets/images/svg/cloud.png.svg" alt="Cloud Icon" class=" mx-auto mb-4">
+                        <h2 class="tag-title-2 mb-4">
+                            Grow your business to the next level.
+                        </h2>
+                        <p class="tag-5 mx-auto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                        </p>
+                    </div>
+
+                    <!-- Features Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <!-- Feature 1 -->
+                        <div class="text-center">
+                            <div class="mx-auto mb-6 flex items-center justify-center">
+                                <img src="assets/images/svg/Background-icon3.svg" alt="User Management" class="">
+                            </div>
+                            <h3 class="feature-title mb-2">User Management</h3>
+                            <p class="tag-3 feature-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                            </p>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="text-center">
+                            <div class="mx-auto mb-6 flex items-center justify-center">
+                                <img src="assets/images/svg/Background-icon4.svg" alt="Data Analytics" class="">
+                            </div>
+                            <h3 class="feature-title mb-2">Insightful Data Analytics</h3>
+                            <p class="tag-3 feature-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                            </p>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="text-center">
+                            <div class="mx-auto mb-6 flex items-center justify-center">
+                                <img src="assets/images/svg/Background-icon.svg" alt="Integration" class="">
+                            </div>
+                            <h3 class="feature-title mb-2">Effortless Integration</h3>
+                            <p class="tag-3 feature-description">
+                                Seamlessly integrate with your existing tools and systems.
+                            </p>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="text-center">
+                            <div class="mx-auto mb-6 flex items-center justify-center">
+                                <img src="assets/images/svg/Background-image-1.svg" alt="Security" class="">
+                            </div>
+                            <h3 class="feature-title mb-2">Robust Security Suite</h3>
+                            <p class="tag-3 feature-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
                             </p>
                         </div>
                     </div>
-
-                    <!-- Pages -->
-                    <div>
-                        <h4 class="footer-tag mb-8">Pages</h4>
-                        <ul class="space-y-6">
-                            <li><a href="#" class="tag-a hover:text-white">Home</a></li>
-                            <li><a href="#" class="tag-a hover:text-white">About</a></li>
-                            <li><a href="#" class="tag-a hover:text-white">Pricing</a></li>
-                            <li><a href="#" class="tag-a hover:text-white flex pr-4">Contact
-                                    <span class="flex pl-2">
-                                        <img src="assets/images/svg/blue-dot.svg" alt="">
-                                        <span class="" style="font-size: 14px; font-weight: 400; color:#ffffff">
-                                            New</span>
-                                    </span>
-                                </a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Solutions -->
-                    <div>
-                        <h4 class="footer-tag mb-8">Solutions</h4>
-                        <ul class="space-y-6">
-                            <li><a href="#" class="tag-a hover:text-white">Startup Support</a></li>
-                            <li><a href="#" class="tag-a hover:text-white flex">Growth AI
-                                    <span class="flex pl-2">
-                                        <img src="assets/images/svg/blue-dot.svg" alt="">
-                                        <span class="" style="font-size: 14px; font-weight: 400; color:#ffffff">
-                                            New</span>
-                                    </span>
-                                </a></li>
-                            <li><a href="#" class="tag-a hover:text-white">Business Support</a></li>
-                            <li><a href="#" class="tag-a hover:text-white">Shipping</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Resources -->
-                    <div>
-                        <h4 class="footer-tag mb-8">Resources</h4>
-                        <ul class="space-y-6">
-                            <li><a href="#" class="tag-a hover:text-white">Blog</a></li>
-                            <li><a href="#" class="tag-a hover:text-white">Community</a></li>
-                            <li><a href="#" class="tag-a hover:text-white">Tutorials</a></li>
-                            <li><a href="#" class="tag-a hover:text-white flex ">Monitoring
-                                    <span class="flex pl-2">
-                                        <img src="assets/images/svg/blue-dot.svg" alt="">
-                                        <span class="" style="font-size: 14px; font-weight: 400; color:#ffffff">
-                                            New</span>
-                                    </span>
-                                </a></li>
-                        </ul>
-                    </div>
                 </div>
+            </div>
 
-                <!-- Bottom Footer -->
-                <div class="pt-8 border-t border-gray-800 text-sm text-gray-400">
-                    <div class="flex flex-col md:flex-row justify-between items-center">
-                        <div class="mb-4 md:mb-0">
-                            © Otake Template | Built by Flowbase - Powered by Webflow
+            <div class="section-e py-20">
+                <div class="max-w-screen-xl mx-auto px-6 lg:px-16">
+                    <!-- Left Content -->
+                    <div class="grid lg:grid-cols-2 gap-8 items-center">
+                        <div class="space-y-6">
+                            <div class="text-center lg:text-left">
+                                <span class="inline-block px-4 py-2 feature-title-2">
+                                    Product Features
+                                </span>
+
+                                <h2 class="tag-4">
+                                    Powerful solutions<br>
+                                    <span class="tag-6">redefining growth.</span>
+                                </h2>
+
+                                <p class="tag-description cl-gray">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                                    Nullam
+                                    congue blandit quam, sit amet scelerisque turpis.
+                                </p>
+
+                                <button class="btn-3 inline-block mt-4">
+                                    <span>
+                                        Find Out More
+                                    </span>
+                                </button>
+                            </div>
+
+
+                            <!-- Feature List -->
+                            <div class="space-y-4 mt-8">
+                                <div class="flex items-center gap-3">
+                                    <img src="assets/images/svg/tike-1.svg" class="" alt="">
+                                    <p class="text-sm">Register users in seconds</p>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <img src="assets/images/svg/tike-1.svg" class="" alt="">
+                                    <p class="text-sm">Collect authorization via secure portals</p>
+                                </div>
+                                <img class="absolute right-[50%] top-[400%] hidden lg:block"
+                                    src="assets/images/svg/001.png.svg" alt="">
+                            </div>
                         </div>
-                        <div>
-                            <a href="#" class="hover:text-white">License</a>
+
+                        <!-- Right Content - Browser Window -->
+                        <div class="flex justify-end">
+                            <img src="assets/images/svg/card-web-1.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="section-f py-10">
+                <div class="max-w-screen-xl mx-auto px-6 lg:px-16">
+                    <!-- Content Container -->
+                    <div class="grid lg:grid-cols-2 gap-8 items-center">
+                        <!-- Left Content - Browser Window -->
+                        <div class="flex justify-start order-2 lg:order-1">
+                            <img src="assets/images/svg/card-web-2.svg" alt="Analytics Dashboard" class="">
+                        </div>
+
+                        <!-- Right Content -->
+                        <div class="space-y-6 order-1 lg:order-2">
+                            <div class="text-center lg:text-left">
+                                <span class="inline-block px-4 py-2 feature-title-2">
+                                    Product Features
+                                </span>
+
+                                <h2 class="tag-4">
+                                    Take control of business<br>
+                                    <span class="tag-6">analytics and data.</span>
+                                </h2>
+
+                                <p class="tag-description cl-gray">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                                    Nullam
+                                    congue blandit quam, sit amet scelerisque turpis pellentesque eu.
+                                </p>
+
+                                <button class="btn-3 inline-block mt-4">
+                                    <span>
+                                        Find Out More
+                                    </span>
+                                </button>
+                            </div>
+
+
+                            <!-- Feature List -->
+                            <div class="space-y-4 mt-8 relative">
+                                <div class="flex items-center gap-3">
+                                    <img src="assets/images/svg/tike-1.svg" alt="Checkmark">
+                                    <p class="text-sm">Register users in seconds</p>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <img src="assets/images/svg/tike-1.svg" alt="Checkmark">
+                                    <p class="text-sm">Collect authorization via secure portals.</p>
+                                </div>
+                                <!-- Floating Image -->
+                                <img class="absolute right-[0%] top-[-100%]" src="assets/images/svg/002.png.svg"
+                                    alt="Floating Element">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-g pt-10 lg:py-20 bg-[#0D0D0D]">
+                <div class="max-w-screen-xl mx-auto px-4 lg:px-16 section-g-c">
+                    <!-- Header -->
+                    <div class="text-center mb-16 relative">
+                        <!-- Left cupcake image -->
+                        <div class="hidden lg:block absolute left-[5%] lg:left-[100px] top-[60%] -translate-y-1/2">
+                            <img src="assets/images/svg/tree-1.png.svg" alt="Cupcake" class="w-16 lg:w-auto">
+                        </div>
+
+                        <!-- Header content -->
+                        <div class="relative z-10 px-4 lg:px-0">
+                            <span class="tag-1 inline-block mb-2 lg:mb-4 text-sm lg:text-base">
+                                Product Features
+                            </span>
+                            <h2 class="testimonial-main-title text-2xl lg:text-4xl">
+                                Hear what our<br class="hidden lg:block">
+                                customers have to say
+                            </h2>
+                        </div>
+
+                        <!-- Right avatar image -->
+                        <div class="absolute right-[100px] top-[60%] -translate-y-1/2">
+                            <img src="assets/images/svg/tree-2.png.svg" alt="Avatar" class="">
+                        </div>
+                    </div>
+
+                    <!-- Testimonials Grid -->
+                    <div
+                        class="flex md:grid md:grid-cols-2 gap-6 overflow-x-auto md:overflow-visible pb-16 md:pb-0 snap-x snap-mandatory">
+                        <!-- Testimonial Card 1 -->
+                        <div
+                            class="bg-[#1A1A1A] pt-2 pl-2 pr-2 rounded-2xl p-8 border border-gray-800 flex-shrink-0 w-[85vw] md:w-auto ml-6 md:ml-0 snap-center">
+                            <div class="testimonial-card">
+                                <div class="flex items-center justify-between mb-6">
+                                    <div>
+                                        <div class="flex gap-1 mb-4">
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#FFE785" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#FFE785" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#FFE785" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#FFE785" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#FFE785" />
+                                            </svg>
+
+
+                                        </div>
+                                        <h3 class="testimonial-title mb-2">Revolutionizing Transactions:</h3>
+                                    </div>
+                                </div>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus
+                                    non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
+                                    pellentesque eu.
+                                </p>
+                                <a href="#" class="text-white hover:text-gray-300 inline-flex items-center">
+                                    <span class="read-more"> Read More</span>
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 2 -->
+                        <div
+                            class="bg-[#1A1A1A] pt-2 pl-2 pr-2 rounded-2xl p-8 border border-gray-800 flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <div class="testimonial-card">
+                                <div class="flex items-center justify-between mb-6">
+                                    <div>
+                                        <div class="flex gap-1 mb-4">
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.99996 14.6851L4.85671 17.8264L6.25496 11.9639L1.67871 8.04381L7.68559 7.56256L9.99996 1.99756L12.3143 7.56256L18.3221 8.04381L13.745 11.9639L15.1432 17.8264L9.99996 14.6851Z"
+                                                    fill="#85C6FF" />
+                                            </svg>
+
+
+                                        </div>
+                                        <h3 class="testimonial-title mb-2">Empowering growth:</h3>
+                                    </div>
+
+                                </div>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus
+                                    non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
+                                    pellentesque eu.
+                                </p>
+                                <a href="#" class="text-white hover:text-gray-300 inline-flex items-center">
+                                    <span class="read-more">Read More</span>
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 3 -->
+                        <div
+                            class="bg-[#1A1A1A] pt-2 pl-2 pr-2 rounded-2xl p-8 border border-gray-800 flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <div class="testimonial-card">
+                                <div class="flex items-center justify-between mb-6">
+                                    <div>
+                                        <div class="flex gap-1 mb-4">
+                                            <svg class="w-5 h-5 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <h3 class="testimonial-title">Leverage analytics for growth:</h3>
+                                    </div>
+                                </div>
+                                <p class="testimonial-description mb-6">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus
+                                    non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
+                                    pellentesque eu.
+                                </p>
+                                <a href="#" class="text-white hover:text-gray-300 inline-flex items-center">
+                                    <span class="read-more">Read More</span>
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Card 4 -->
+                        <div
+                            class="bg-[#1A1A1A] pt-2 pl-2 pr-2 rounded-2xl p-8 border border-gray-800 flex-shrink-0 w-[85vw] md:w-auto mr-6 md:mr-0 snap-center">
+                            <div class="testimonial-card">
+                                <div class="flex items-center justify-between mb-6">
+                                    <div>
+                                        <div class="flex gap-1 mb-4">
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-5 h-5 text-purple-400" fill="currentColor"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+
+                                        <h3 class="testimonial-title ">Streamline workflows:</h3>
+                                    </div>
+                                </div>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus
+                                    non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
+                                    pellentesque eu.
+                                </p>
+                                <a href="#" class="text-white hover:text-gray-300 inline-flex items-center">
+                                    <span class="read-more">Read More</span>
+                                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-h py-20  from-pink-50 to-blue-50">
+                <div class="max-w-screen-xl mx-auto px-4 lg:px-16">
+                    <!-- Header -->
+                    <div class="text-center mb-16">
+                        <span class="tag-1 inline-block mb-4">
+                            Blog Articles
+                        </span>
+                        <h2 class="tag-4 mb-4">
+                            Take a look at the latest<br>
+                            articles from Otake
+                        </h2>
+                        <p class="tag-5 max-w-2xl mx-auto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus.
+                        </p>
+                    </div>
+
+                    <!-- Blog Cards Grid -->
+                    <div
+                        class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 pb-16 md:pb-0 snap-x snap-mandatory">
+                        <!-- Blog Card 1 -->
+                        <div
+                            class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto ml-6 md:ml-0 snap-center">
+                            <div class="relative p-4">
+                                <img src="assets/images/svg/cartoon-1.png.svg" alt="Analytics"
+                                    class="w-full h-64 object-cover rounded-[1rem] bg-[#EBF5FF]">
+                            </div>
+                            <span class="chip-card">Shoping</span>
+                            <div class="p-6">
+                                <h3 class="tag-7 mb-3">Use data analytics to improve shipping times.</h3>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus non enim lacus. Nulla...</p>
+                                <a href="#" class="btn-2">
+                                    <span class="mx-auto">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 2 -->
+                        <div
+                            class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto snap-center">
+                            <div class="relative p-4">
+                                <img src="assets/images/svg/cartoon-2.png.svg" alt="Sales Growth"
+                                    class="w-full h-64 object-cover rounded-[1rem] bg-[#F3EFFF]">
+                            </div>
+                            <span class="chip-card">Data</span>
+                            <span class="chip-card">Sales Growth</span>
+                            <div class="p-6">
+                                <h3 class="tag-7 mb-3">Sales growth stories powered by marketing.</h3>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus non enim lacus. Nulla...</p>
+                                <a href="#" class="btn-2">
+                                    <span class="mx-auto">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 3 -->
+                        <div
+                            class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto mr-6 md:mr-0 snap-center">
+                            <div class="relative p-4">
+                                <img src="assets/images/svg/cartoon-3.png.svg" alt="Customer Base"
+                                    class="w-full h-64 object-cover rounded-[1rem] bg-[#FFE9EC]">
+                            </div>
+                            <span class="chip-card">Data</span>
+                            <span class="chip-card">Shoping</span>
+                            <span class="chip-card">Sales Growth</span>
+                            <div class="p-6">
+                                <h3 class="tag-7 mb-3">Tips for building a returning customer base.</h3>
+                                <p class="testimonial-description mb-4">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit.
+                                    Vivamus non enim lacus. Nulla...</p>
+                                <a href="#" class="btn-2">
+                                    <span class="mx-auto">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Centered Bottom Arrow Button -->
+                    <div class="flex justify-center mt-8 md:hidden">
+                        <button
+                            class="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center absolute top-[1028%]">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-i lg:py-20">
+                <div class="max-w-4xl mx-auto px-4 lg:px-0">
+                    <!-- Black Card Container -->
+                    <div class="bg-black rounded-[2rem] p-12 md:p-16 relative">
+                        <!-- Octagonal Logo Element -->
+                        <div class="absolute left-1/2 -top-8 transform -translate-x-1/2">
+                            <img src="assets/images/svg/octa-logo-2.png.svg" alt="">
+                        </div>
+
+                        <!-- Content Container -->
+                        <div class="text-center space-y-4 pt-10">
+                            <!-- Main Heading -->
+                            <h1 class="tag-6 cl-white">
+                                Get Started With Otake.
+                            </h1>
+
+                            <!-- Description -->
+                            <p class="tag-description text-[#C8C6D3] cl-gray mx-auto">
+                                Explore a new realm of efficiency and success with our cutting-edge SaaS.
+                            </p>
+
+                            <!-- Stats Container -->
+                            <div class="flex justify-center items-center space-x-4 py-4">
+                                <div class="flex items-center">
+                                    <span class="feature-title  text-white">120 Employes</span>
+                                    <span class="text-gray-600 mx-4">·</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <span class="feature-title  text-white">$31.5M Raised</span>
+                                    <span class="text-gray-600 mx-4">·</span>
+                                </div>
+                                <div class="feature-title  flex items-center">
+                                    <span class="text-white">7 Years old</span>
+                                </div>
+                            </div>
+
+                            <!-- CTA Button Group -->
+                            <div class="inline-flex items-center bg-white rounded-lg p-1">
+                                <button class="btn-4">
+                                    Apply Now
+                                </button>
+                                <span class="text-gray-400 px-2 text-sm">~</span>
+                                <button class="btn-4 text-gray-600 bg-transparent hover:text-gray-800">
+                                    Otake Template
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Grid Pattern Background -->
+                        <div class="absolute inset-0 overflow-hidden rounded-[2rem]">
+                            <div class="absolute inset-0 opacity-[0.03]" style="background-image: 
+                                        linear-gradient(to right, #ffffff 1px, transparent 1px),
+                                        linear-gradient(to bottom, #ffffff 1px, transparent 1px);
+                                    background-size: 24px 24px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-j py-16 px-4 lg:px-16">
+                <div class="max-w-3xl mx-auto">
+                    <!-- Header with Logo and Badge -->
+                    <div class="flex flex-col items-center text-center mb-8">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="tag-1">
+                                Frequently Asked Questions
+                            </span>
+                        </div>
+
+                        <h1 class="tag-4">
+                            Frequently Asked Questions
+                        </h1>
+
+                        <p class="tag-description pt-2">
+                            All Plans come with a 14-day free trial period.
+                        </p>
+                    </div>
+
+
+                    <!-- Category Buttons -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-12">
+                        <button
+                            class="cat-tag flex items-start  gap-2 p-4 bg-white rounded-xl border border-gray-100 transition-all">
+                            <img src="assets/images/svg/windows.svg" alt="">
+                            <span>Getting Started</span>
+                        </button>
+
+                        <button
+                            class="cat-tag flex items-center  gap-2 p-4 bg-white rounded-xl border border-gray-100  transition-all">
+                            <img src="assets/images/svg/support.svg" alt="">
+                            <span>Features and Support</span>
+                        </button>
+
+                        <button
+                            class="cat-tag flex items-center  gap-2 p-4 bg-white rounded-xl border border-gray-100  transition-all">
+                            <img src="assets/images/svg/team.svg" alt="">
+                            <span>Security and Privacy</span>
+                        </button>
+                        <button
+                            class="cat-tag flex items-center gap-2 p-4 bg-white rounded-xl border border-gray-100  transition-all">
+                            <img src="assets/images/svg/assistance.svg" alt="">
+                            <span>Oteka Assistance</span>
+                        </button>
+                    </div>
+
+                    <!-- FAQ Questions -->
+                    <div class="space-y-4 relative">
+                        <span class="faq-title">Getting Started : </span>
+
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item bg-white  overflow-hidden">
+                            <button
+                                class="faq-question w-full flex items-center justify-between p-6 text-left transition-all">
+                                <span class="font-medium">What is Otake and how can it benefit my startup?</span>
+                                <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer hidden px-6 pb-6">
+                                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vivamus
+                                    non enim lacus.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item bg-white rounded-xl overflow-hidden">
+                            <button
+                                class="faq-question w-full flex items-center justify-between p-6 text-left transition-all">
+                                <span class="font-medium">Is Otake suitable for all types of startups, regardless of
+                                    industry size?</span>
+                                <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer hidden px-6 pb-6">
+                                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vivamus
+                                    non enim lacus.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item bg-white rounded-xl overflow-hidden">
+                            <button
+                                class="faq-question w-full flex items-center justify-between p-6 text-left transition-all">
+                                <span class="font-medium">How do I begin using Otake to develop my startup business
+                                    effectively?</span>
+                                <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer hidden px-6 pb-6">
+                                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vivamus
+                                    non enim lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
     </div>
 
     <!-- script -->
-    <script src="assets/scripts/main.js"></script>
+    <script defer src="./assets/scripts/main.js"></script>
 </body>
 
 </html>
