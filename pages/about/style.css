@@ -27,6 +27,25 @@
     line-height: 57px;
 }
 
+.tag-6 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #898693;
+    font-family: "Bricolage Grotesque";
+    line-height: 50px;
+}
+
+@media (min-width: 1024px) {
+
+    .tag-6 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #898693;
+        font-family: "Bricolage Grotesque";
+        line-height: 57px;
+    }
+}
+
 .section-b {
 
     .title-b {
@@ -83,4 +102,13 @@
 
         }
     }
+}
+
+.section-d {
+    position: relative;
+    background-image: url('assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 0px 24px 24px 0px;
 }
