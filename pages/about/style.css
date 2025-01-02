@@ -3,7 +3,7 @@
 
 
 .banner {
-    background-image: url('../../images/svg/about-background.png');
+    background-image: url('../../assets/images/svg/about-background.png');
     background-repeat: no-repeat;
     background-size: 99% 80%, 100% 100%;
     background-position: center, center;
@@ -43,6 +43,11 @@
 
 }
 
+.value-cards {
+    box-shadow: 0px 20px 56px -12px #45417129;
+    border-radius: 24px;
+}
+
 .tag-11 {
     box-shadow: 0px 0px 0px 1px #E8E6F0;
     box-shadow: 0px 1px 1px 0px #0D0C100A;
@@ -65,6 +70,13 @@
     line-height: 40px;
     color: #0D0C10;
     margin-bottom: 1rem;
+}
+
+.value-title {
+    font-family: "Bricolage Grotesque";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36.4px;
 }
 
 .card-shadow {

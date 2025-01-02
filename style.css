@@ -59,6 +59,11 @@ h1 {
     line-height: 57px;
 }
 
+.value-cards {
+    box-shadow: 0px 20px 56px -12px #45417129;
+    border-radius: 24px;
+}
+
 /* mobile */
 .tag-5 {
     font-size: 16px;
