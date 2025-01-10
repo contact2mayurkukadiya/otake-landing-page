@@ -56,3 +56,33 @@
     font-weight: 600;
     line-height: 36.4px;
 }
+
+.section-e {
+    position: relative;
+    background-image: url('assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.btn-3 {
+    padding: 10px 16px 11px 16px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #0D0C10;
+
+    span {
+        font-size: 12px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+}
+
+.tag-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D0C10;
+    line-height: 24px;
+}
