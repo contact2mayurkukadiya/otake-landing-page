@@ -14,11 +14,7 @@ h1 {
 .banner {
     background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
     background-repeat: no-repeat;
-    /* background-size: 70% 100%, 100% 100%;
-    background-position: right center, right top;
-    border-radius: 0px 24px 24px 0px;
-    margin-right: 10px;
-    width: calc(100% - 10px); */
+
 }
 
 .section-c {
