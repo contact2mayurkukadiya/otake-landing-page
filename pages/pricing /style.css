@@ -59,7 +59,7 @@
 
 .section-e {
     position: relative;
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('/assets/images/svg/background-2.png.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -85,4 +85,155 @@
     font-weight: 400;
     color: #0D0C10;
     line-height: 24px;
+}
+
+.tag-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D0C10;
+    line-height: 24px;
+}
+
+.tag-6 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #898693;
+    font-family: "Bricolage Grotesque";
+    line-height: 50px;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    .tag-5 {
+        font-size: 18px;
+        line-height: 1.6;
+        width: 25%;
+        padding: 0;
+    }
+
+    .tag-6 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #898693;
+        font-family: "Bricolage Grotesque";
+        line-height: 57px;
+    }
+
+    .feature-title {
+        font-family: "Bricolage Grotesque";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #0D0C10;
+    }
+
+
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .tag-5 {
+        font-size: 18px;
+        line-height: 1.6;
+        width: 25%;
+        padding: 0;
+    }
+
+    .tag-6 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #898693;
+        font-family: "Bricolage Grotesque";
+        line-height: 57px;
+    }
+
+    .feature-title {
+        font-family: "Bricolage Grotesque";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #0D0C10;
+    }
+}
+
+
+.section-j {
+    background-image: url('../../assets/images/svg/background-2.png.svg');
+    background-repeat: no-repeat;
+    background-size: 70% 100%, 70% 100%;
+    background-position: center, center;
+    border-radius: 0px 24px 24px 0px;
+}
+
+
+.cat-tag {
+    box-shadow: 0px 12px 48px -12px #45417129;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+
+    span {
+        font-size: 20px;
+        font-weight: 400;
+        color: #222222;
+    }
+}
+
+.cat-tag:hover {
+    border-color: #9585FF;
+}
+
+.cat-tag:hover {
+    transform: translateY(-1px);
+}
+
+.faq-title {
+    font-family: "Bricolage Grotesque";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.4px;
+    letter-spacing: -0.23999999463558197px;
+    color: #0D0C10;
+
+}
+
+
+.faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    transition: background-color 0.2s ease;
+}
+
+.font-medium {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.faq-question svg {
+    transition: transform 0.2s ease;
+}
+
+.faq-answer {
+    transition: all 0.2s ease;
+}
+
+/* Animation for the answer */
+.faq-answer:not(.hidden) {
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
