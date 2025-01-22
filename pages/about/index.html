@@ -15,17 +15,19 @@
         <main>
             <div>
                 <div class="banner">
-                    <div class="max-w-screen-xl pt-16 mx-auto">
+                    <div class="max-w-screen-xl pt-8 md:pt-12 lg:pt-16 mx-auto px-4 md:px-6 lg:px-8">
                         <!-- Header -->
-                        <div class=" text-center mb-16">
-                            <span class="tag-1 inline-block mb-4">
+                        <div class="text-center mb-8 md:mb-12 lg:mb-16">
+                            <span class="tag-1 inline-block mb-3 md:mb-4 text-sm md:text-base">
                                 About Us
                             </span>
-                            <h2 class="tag-4 mb-4">
-                                Empowering businesses <br>
+                            <h2 class="tag-4 mb-3 md:mb-4 text-2xl md:text-3xl lg:text-4xl font-bold">
+                                Empowering businesses
+                                <br class="hidden md:block">
                                 large and small.
                             </h2>
-                            <p class="tag-5 max-w-2xl mx-auto">
+                            <p
+                                class="tag-5 max-w-[90%] md:max-w-xl lg:max-w-2xl mx-auto text-sm md:text-base text-gray-600">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non
                                 enim lacus. Nullam congue blandit quam, sit amet.
                             </p>
@@ -33,31 +35,31 @@
 
                         <!-- Blog Cards Grid -->
                         <div
-                            class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-8 pb-16 md:pb-0 snap-x snap-mandatory">
+                            class="flex md:grid md:grid-cols-2 lg:grid-cols-3 overflow-x-auto md:overflow-visible gap-4 md:gap-6 lg:gap-8 pb-8 md:pb-0 snap-x snap-mandatory px-4 md:px-0">
                             <!-- Blog Card 1 -->
                             <div
-                                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto ml-6 md:ml-0 snap-center">
-                                <div class="relative p-4">
+                                class="bg-white rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] sm:w-[70vw] md:w-auto ml-0 md:ml-0 snap-center">
+                                <div class="relative p-2 md:p-3 lg:p-4">
                                     <img src="../../assets/images/svg/first-dog.png.svg" alt="first-dog"
-                                        class="w-full h-84 object-cover rounded-[1rem]">
+                                        class="w-full h-88 sm:h-64 md:h-72 lg:h-84 object-cover rounded-xl md:rounded-2xl">
                                 </div>
                             </div>
 
                             <!-- Blog Card 2 -->
                             <div
-                                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto snap-center">
-                                <div class="relative p-4">
+                                class="bg-white rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] sm:w-[70vw] md:w-auto snap-center">
+                                <div class="relative p-2 md:p-3 lg:p-4">
                                     <img src="../../assets/images/svg/second-dog.png.svg" alt="Sales Growth"
-                                        class="w-full h-84 object-cover rounded-[1rem]">
+                                        class="w-full h-88 sm:h-64 md:h-72 lg:h-84 object-cover rounded-xl md:rounded-2xl">
                                 </div>
                             </div>
 
                             <!-- Blog Card 3 -->
                             <div
-                                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto mr-6 md:mr-0 snap-center">
-                                <div class="relative p-4">
+                                class="bg-white rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] sm:w-[70vw] md:w-auto mr-0 md:mr-0 snap-center">
+                                <div class="relative p-2 md:p-3 lg:p-4">
                                     <img src="../../assets/images/svg/third-dog.png.svg" alt="Customer Base"
-                                        class="w-full h-84 object-cover rounded-[1rem]">
+                                        class="w-full h-88 sm:h-64 md:h-72 lg:h-84 object-cover rounded-xl md:rounded-2xl">
                                 </div>
                             </div>
                         </div>
@@ -65,82 +67,64 @@
                 </div>
 
                 <div class="section-b pb-10">
-                    <div class="max-w-screen-lg pt-16 mx-auto">
-                        <div class="flex">
-                            <div class="pr-2">
-                                <span class="title-b">The growth of your
-                                    business is our priority, so
-                                    we are here to help.</span>
+                    <div class="max-w-screen-lg pt-8 md:pt-12 lg:pt-16 mx-auto px-4 md:px-6 lg:px-8">
+                        <!-- Title and Description -->
+                        <div class="flex flex-col lg:flex-row gap-6 lg:gap-12 mb-8 md:mb-12">
+                            <div class="w-full lg:w-1/2">
+                                <span class="title-b text-2xl md:text-3xl lg:text-4xl font-bold block">
+                                    The growth of your business is our priority, so we are here to help.
+                                </span>
                             </div>
-                            <div class="pl-20 ml-10">
-                                <p class="description-b">Euismod aliquet odio cursus lacus, ut sit
-                                    suspendisse ultrices. Etiam enim risus faucibus
-                                    feugiat ut enim in sed tincidunt. Eu in justo, eu
-                                    porttitor vivamus neque,.</p>
+                            <div class="w-full lg:w-1/2">
+                                <p class="description-b text-sm md:text-base text-gray-600">
+                                    Euismod aliquet odio cursus lacus, ut sit suspendisse ultrices.
+                                    Etiam enim risus faucibus feugiat ut enim in sed tincidunt.
+                                    Eu in justo, eu porttitor vivamus neque.
+                                </p>
                             </div>
                         </div>
-                        <div class="second-box mt-6">
-                            <div class="box">
-                                <span class="chip">CLIENT RETENTION</span>
-                                <span class="p-1">5.2M</span>
+
+                        <!-- Stats Boxes -->
+                        <div
+                            class="second-box mt-6 flex space-x-4 overflow-x-auto lg:overflow-x-visible snap-x snap-mandatory">
+                            <!-- Client Retention Box -->
+                            <div
+                                class="box bg-white p-6 md:p-8 rounded-2xl shadow-lg flex-shrink-0 snap-start w-64 md:w-74 lg:w-45">
+                                <span class="chip text-sm md:text-base text-gray-600 block mb-2">
+                                    CLIENT RETENTION
+                                </span>
+                                <span class="p-1 text-2xl md:text-3xl lg:text-4xl font-bold">
+                                    5.2M
+                                </span>
                             </div>
-                            <div class="box">
-                                <span class="chip">EMAILS PER MONTH</span>
-                                <span class="p-1">+330K</span>
+
+                            <!-- Emails Box -->
+                            <div
+                                class="box bg-white p-6 md:p-8 rounded-2xl shadow-lg flex-shrink-0 snap-start w-64 md:w-74 lg:w-45">
+                                <span class="chip text-sm md:text-base text-gray-600 block mb-2">
+                                    EMAILS PER MONTH
+                                </span>
+                                <span class="p-1 text-2xl md:text-3xl lg:text-4xl font-bold">
+                                    +330K
+                                </span>
                             </div>
-                            <div class="box">
-                                <span class="chip">MONTHLY CAMPAIGNS</span>
-                                <span class="p-1">+44,5K</span>
+
+                            <!-- Campaigns Box -->
+                            <div
+                                class="box bg-white p-6 md:p-8 rounded-2xl shadow-lg flex-shrink-0 snap-start w-64 md:w-74 lg:w-45">
+                                <span class="chip text-sm md:text-base text-gray-600 block mb-2">
+                                    MONTHLY CAMPAIGNS
+                                </span>
+                                <span class="p-1 text-2xl md:text-3xl lg:text-4xl font-bold">
+                                    +44.5K
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="section-c pb-20 pt-20">
-                    <div class="p-8">
-                        <div class="text-center mb-8">
-                            <span class="inline-block bg-yellow-300 text-black font-semibold px-3 py-1 rounded-full">Our
-                                Values</span>
-                        </div>
-                        <p class="text-center mb-8 text-gray-700 max-w-2xl mx-auto">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non enim lacus. Nullam
-                            congue blandit quam, sit amet scelerisque turpis pellentesque eu. Sed rutrum orci felis,
-                            eget interdum.
-                        </p>
 
-                        <div class="flex flex-wrap justify-center gap-8">
-                            <div
-                                class="value-cards bg-white p-6 max-w-[22rem] w-full flex flex-col items-center text-center">
-                                <img src="../../assets/images/svg/head-1.png.svg" alt="Client Focussed" class="pb-6">
-                                <h4 class="value-title">Client Focussed</h4>
-                                <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Vivamus non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
-                                    pellentesque eu.</p>
-                            </div>
-                            <div
-                                class="value-cards bg-white p-6 max-w-[22rem] w-full flex flex-col items-center text-center">
-                                <img src="../../assets/images/svg/head-2.png.svg" alt="Innovate & Optimize"
-                                    class="pb-6">
-                                <h4 class="value-title">Innovate & Optimize</h4>
-                                <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Vivamus non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
-                                    pellentesque eu.</p>
-                            </div>
-                            <div
-                                class="value-cards bg-white p-6 max-w-[22rem] w-full flex flex-col items-center text-center">
-                                <img src="../../assets/images/svg/head-3.png.svg" alt="Community Driven" class="pb-6">
-                                <h4 class="value-title">Community Driven</h4>
-                                <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Vivamus non enim lacus. Nullam congue blandit quam, sit amet scelerisque turpis
-                                    pellentesque eu.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="section-d py-20">
+                <div class="section-d py-10">
                     <div class="max-w-screen-xl mx-auto px-6 lg:px-16">
 
                         <div class=" text-center mb-16">
@@ -158,7 +142,7 @@
 
                         <!-- Left Content -->
                         <div class="grid lg:grid-cols-2 gap-8 items-center " style="margin: 0 10rem">
-                            <div class="space-y-6">
+                            <!-- <div class="space-y-6">
                                 <div class="" style="width: 75%;">
                                     <div class="mb-6">
                                         <h2 class="grow-title">+100,000</h2>
@@ -179,11 +163,10 @@
                                             Vivamus non enim lacus.</p>
                                     </div>
                                 </div>
-
-                            </div>
+                            </div> -->
 
                             <!-- Right Content - Browser Window -->
-                            <div class="flex justify-end">
+                            <!-- <div class="flex justify-end">
                                 <div
                                     class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex-shrink-0 w-[85vw] md:w-auto ml-6 md:ml-0 snap-center">
                                     <div class="relative p-4">
@@ -204,12 +187,12 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
 
-                <div class="section-e py-20">
+                <div class="section-e py-10">
                     <div class="flex flex-col items-center py-10">
                         <h2 class="tag-1">Product Features</h2>
                         <div class="text-center mb-10 w-[55%]">
