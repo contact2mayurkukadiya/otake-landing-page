@@ -117,6 +117,15 @@
 
 }
 
+
+.tag-7 {
+    font-family: "Bricolage Grotesque";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #0D0C10;
+}
+
 @media (min-width: 1024px) {
 
     .tag-6 {
@@ -140,8 +149,19 @@
         font-weight: 400;
         line-height: 24px;
         text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
+}
+
+.tag-8 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .section-b {
