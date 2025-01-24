@@ -25,3 +25,45 @@
     padding: 5px 10px;
     color: #0D0C10;
 }
+
+.banner {
+    background-image: url('../../assets/images/svg/background-banner.png.svg'), url('../../assets/images/svg/grid-box.png');
+    background-repeat: no-repeat;
+
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    .tag-5 {
+        font-size: 18px;
+        line-height: 1.6;
+        width: 25%;
+        padding: 0;
+    }
+
+    .tag-6 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #898693;
+        font-family: "Bricolage Grotesque";
+        line-height: 57px;
+    }
+
+    .feature-title {
+        font-family: "Bricolage Grotesque";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #0D0C10;
+    }
+
+    .banner {
+        background-image: url('../../assets/images/svg/background-banner.png.svg'), url('../../assets/images/svg/grid-box.png');
+        background-repeat: no-repeat;
+        background-size: 70% 100%, 100% 100%;
+        background-position: right center, right top;
+        border-radius: 0px 24px 24px 0px;
+        margin-right: 10px;
+        width: calc(100% - 10px);
+    }
+}
