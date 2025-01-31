@@ -1030,6 +1030,33 @@
         <footer></footer>
     </div>
 
+    <!--  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqButtons = document.querySelectorAll(".faq-question");
+
+            faqButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    // Toggle the clicked FAQ item
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle("hidden");
+
+                    // Rotate the arrow icon
+                    const icon = this.querySelector("svg");
+                    icon.classList.toggle("rotate-180");
+
+                    // Close other open items
+                    faqButtons.forEach(otherButton => {
+                        if (otherButton !== button) {
+                            otherButton.nextElementSibling.classList.add("hidden");
+                            otherButton.querySelector("svg").classList.remove("rotate-180");
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
     <!-- script -->
     <script defer src="./assets/scripts/main.js"></script>
 </body>
