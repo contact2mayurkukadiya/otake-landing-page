@@ -12,13 +12,13 @@ h1 {
 }
 
 .banner {
-    background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
+    background-image: url('assets/images/svg/background-banner.svg'), url('assets/images/svg/grid-box.png');
     background-repeat: no-repeat;
 
 }
 
 .section-c {
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: 70% 100%, 70% 100%;
     background-position: center, center;
@@ -239,7 +239,7 @@ h1 {
 
 .section-f {
     position: relative;
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -248,7 +248,7 @@ h1 {
 
 .section-e {
     position: relative;
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -256,7 +256,7 @@ h1 {
 }
 
 .section-h {
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: 70% 100%, 70% 100%;
     background-position: center, center;
@@ -264,7 +264,7 @@ h1 {
 }
 
 .section-j {
-    background-image: url('assets/images/svg/background-2.png.svg');
+    background-image: url('assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: 70% 100%, 70% 100%;
     background-position: center, center;
@@ -694,7 +694,7 @@ input[type="email"]::placeholder {
     }
 
     .banner {
-        background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
+        background-image: url('assets/images/svg/background-banner.svg'), url('assets/images/svg/grid-box.png');
         background-repeat: no-repeat;
         background-size: 70% 100%, 100% 100%;
         background-position: right center, right top;
@@ -730,7 +730,7 @@ input[type="email"]::placeholder {
     }
 
     .banner {
-        background-image: url('assets/images/svg/background-banner.png.svg'), url('assets/images/svg/grid-box.png');
+        background-image: url('assets/images/svg/background-banner.svg'), url('assets/images/svg/grid-box.png');
         background-repeat: no-repeat;
         background-size: 70% 100%, 100% 100%;
         background-position: right center, right top;

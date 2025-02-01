@@ -1,8 +1,8 @@
-@import url("../../assets/fonts/font.css");
+@import url("/assets/fonts/font.css");
 
 
 .section-a {
-    background-image: url('/assets/images/svg/background-banner.png.svg'), url('../../assets/images/svg/img-back.png.png');
+    background-image: url('/assets/images/svg/background-banner.svg'), url('/assets/images/svg/img-back.png.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right center, right top;
@@ -27,7 +27,7 @@
 }
 
 .banner {
-    background-image: url('../../assets/images/svg/background-banner.png.svg'), url('../../assets/images/svg/grid-box.png');
+    background-image: url('/assets/images/svg/background-banner.svg'), url('/assets/images/svg/grid-box.png');
     background-repeat: no-repeat;
 
 }
@@ -58,7 +58,7 @@
     }
 
     .banner {
-        background-image: url('../../assets/images/svg/background-banner.png.svg'), url('../../assets/images/svg/grid-box.png');
+        background-image: url('/assets/images/svg/background-banner.svg'), url('/assets/images/svg/grid-box.png');
         background-repeat: no-repeat;
         background-size: 70% 100%, 100% 100%;
         background-position: right center, right top;

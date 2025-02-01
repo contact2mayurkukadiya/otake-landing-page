@@ -1,4 +1,4 @@
-@import url("../../assets/fonts/font.css");
+@import url("/assets/fonts/font.css");
 
 
 .tag-1 {
@@ -58,7 +58,7 @@
 
 .section-e {
     position: relative;
-    background-image: url('/assets/images/svg/background-2.png.svg');
+    background-image: url('/assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -157,7 +157,7 @@
 
 
 .section-j {
-    background-image: url('../../assets/images/svg/background-2.png.svg');
+    background-image: url('/assets/images/svg/background-2.svg');
     background-repeat: no-repeat;
     background-size: 70% 100%, 70% 100%;
     background-position: center, center;

@@ -4,8 +4,6 @@
 
 // accordion
 
-console.log('Hello from  main script.js!');
-
 function loadHTML(file, target) {
     // Determine the base path based on the current location
     const basePath = location.pathname.includes('/pages/') ? '../../common/' : './common/';
